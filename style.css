@@ -1,0 +1,381 @@
+*   {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+  }
+#nav-section    {
+    background: #191B27;
+    width: 100vw;
+}
+#small-logo {
+    display: none;
+}
+a  {
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 500;
+}
+/* h2  {
+    font-size: 4rem;
+} */
+
+#logo-name  {
+    font-family: Montserrat;
+    font-size: 20px; 
+    font-weight: 600;
+}
+#nav-btn    {
+    font-family: Roboto;
+    background: #3FD3DD;
+     font-size: 20px;
+      padding: 12px 18px;
+       color: white;
+    box-shadow: none; 
+    border: 1px solid #3FD3DD; 
+    font-weight: 700;
+}
+#jumbotron-section  {
+    background-image: url('images/Rectangle (7).png');  
+    background-repeat: no-repeat;
+    background-size: cover; background-position: center;
+     height: 45rem;
+     width: 100vw;
+}
+#jumbotron-heading  {
+    font-family: Montserrat;
+    font-size: 72px;
+}
+#jumbotron-paragraph    {
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 24px;
+}
+#biography-section  {
+    background-image: url('images/Rectangle.png'); 
+    background-position: center; background-repeat: no-repeat; background-size: cover;
+    width: 100vw;
+}
+#bio-img-one    {
+    position: relative;
+     top: 15px; 
+     left: 20px;
+}
+#bio-img-two    {
+    position: absolute;
+     top: 70px; 
+     left: 70px;
+}
+#bio-heading    {
+    font-family: Montserrat;
+    font-size: 40px; 
+    line-height: 25px;
+}
+#bio-paragraph  {
+    font-family: Roboto;
+    font-size: 30px;
+    line-height: 42px;
+}
+
+#tour-section   {
+    background: #191B27;
+}
+#tour-heading   {
+    font-family: Montserrat;
+    font-weight: 700;
+}
+#small-screen-tour  {
+    display: none;
+}
+#tour-img-one   {
+    background-image: url('images/Rectangle (5).png'); 
+    background-position: center; background-repeat: no-repeat; background-size: cover;
+}
+#tour-div-inside    {
+    background: rgba(63, 211, 221, 0.8); width: 100%; 
+    position: absolute;
+     bottom: 0;
+      left: 0;
+}
+#tour-inside-heading    {
+    font-family: Montserrat;
+    font-size: 30px; 
+    font-weight: 600;
+}
+#tour-inside-paragraph  {
+    font-family: Roboto;
+    font-size: 20px; 
+    font-weight: 600;
+}
+
+#tour-img-two   {
+    background-image: url('images/Rectangle (3).svg'); 
+    background-position: center; background-repeat: no-repeat; background-size: cover;
+     height: 50rem;
+}
+#tour-img-three {
+    background-image: url('images/Rectangle (6).png');
+     background-position: center; background-repeat: no-repeat; background-size: cover;
+}
+
+#video-section  {
+    width: 100vw;
+    background-image: url('images/Rectangle1.png'); 
+    background-position: center; background-repeat: no-repeat; background-size: cover; 
+    height: 30rem;
+    
+}
+#video-paragraph    {
+    font-size: 36px;
+    font-weight: 500;
+}
+
+#album-section  {
+    background-image: url('images/Rectangle (8).png'); 
+    background-position: center; background-repeat: no-repeat; background-size: cover;
+}
+#album-heading  {
+    font-family: Montserrat;
+    font-size: 48px;
+     font-weight: 600;
+}
+#album-paragraph    {
+    font-family: Roboto;
+    font-size: 30px; 
+    font-weight: 600;
+}
+#album-paragraph-two    {
+    font-family: Roboto;
+    line-height: 35px; 
+    font-size: 25px;
+}
+#album-social-div   {
+    border: 1px solid white;
+     padding: 2px;
+}
+
+#contact-section    {
+    background-image: url('images/Rectangle (9).png');
+     background-position: center; background-repeat: no-repeat; background-size: cover;
+      height: 53rem;
+      width: 100vw;
+     
+}
+#contact-heading    {
+    font-family: Montserrat;
+    font-size: 48px; 
+    font-weight: 600;
+}
+#contact-paragraph  {
+    font-family: Roboto;
+    font-size: 20px; 
+    font-weight: 500;
+}
+#input   {
+    background: none;
+}
+#contact-submit-btn {
+    background: #3FD3DD;
+     border-radius: 5px; 
+     font-size: 20px; 
+     font-weight: 600;
+     box-shadow: none;
+     border: 1px solid #3FD3DD;
+     font-family: Roboto;
+}
+
+#contact-us-section {
+    background: #191B27;
+}
+#contact-us-heading {
+    font-family: Montserrat;
+    font-size: 36px;
+}
+#contact-us-paragraph   {
+    font-family: Roboto;
+    font-size: 20;
+     line-height: 26px; 
+     font-weight: 400;
+}
+#contact-us-btn {
+    font-family: Roboto;
+    background: #3FD3DD; 
+    font-size: 20px;
+     font-weight: 600;
+     box-shadow: none;
+     border: none;
+     padding: 5px 20px;
+}
+
+#footer-section {
+    background: #121318;
+}
+#footer-paragraph   {
+    font-family: Roboto;
+    font-size: 25px; 
+    font-weight: 500;
+}
+
+
+
+
+/* Media Queries  */
+
+@media screen and (max-width: 760px)  {
+    #nav-section    {
+        width: 100vw;
+    }
+    #small-logo {
+        display: block;
+    }
+    #large-logo {
+            display: none;
+    }
+    #logo-name  {
+        font-family: Montserrat;
+        font-size: 12px; 
+        font-weight: 600;
+        /* margin-left: -12rem; */
+        display: inline;
+       
+    }
+    #nav-btn    {
+        font-family: Roboto;
+        background: #3FD3DD;
+         font-size: 20px;
+          padding: 12px 18px;
+           color: white;
+        box-shadow: none; 
+        border: 1px solid #3FD3DD; 
+        font-weight: 700;
+    }
+    
+#jumbotron-section  {
+    background-image: url('images/Rectangle\ \(10\).png');  
+    background-repeat: no-repeat;
+    background-size: cover; background-position: center;
+     height: 35rem;
+     width: 100vw;
+}
+#jumbotron-heading  {
+    font-family: Montserrat;
+    font-size: 46px;
+}
+#jumbotron-paragraph    {
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 23px;  
+}
+#biography-section  {
+    background-image: url('images/Rectangle.png'); 
+    background-position: center; background-repeat: no-repeat; background-size: cover;
+    width: 100vw;
+}
+#bio-img-one    {
+    position: relative;
+     top: 15px; 
+     left: 20px;
+     height: 15rem;
+     width: 80%;
+}
+#bio-img-two    {
+    position: absolute;
+     top: 70px; 
+     left: 70px;
+     width: 80%;
+
+}
+#bio-heading    {
+    font-family: Montserrat;
+    font-size: 30px; 
+    line-height: 25px;
+}
+#bio-paragraph  {
+    font-family: Roboto;
+    font-size: 16px;
+    line-height: 42px;
+}
+
+#large-screen-tour  {
+    display: none;
+}
+
+#small-screen-tour  {
+    display: contents;
+    height: 35rem;
+}
+
+#video-paragraph    {
+    font-size: 24px;
+}
+#video-section  {
+    width: 100vw;
+}
+#album-section  {
+    
+}
+#album-heading  {
+    font-size: 35px;
+}
+#album-paragraph    {
+    font-size: 20px; 
+    text-align: center;
+}
+#album-paragraph-two    {
+    line-height: 35px; 
+    font-size: 17px;
+    text-align: center;
+}
+#album-social-div   {
+    border: 1px solid white;
+     padding: 1px;
+}
+#contact-section    {
+    height: 40rem;
+    width: 100vw;
+}
+#contact-heading    {
+    font-size: 25px; 
+}
+#contact-paragraph  {
+    font-size: 15px; 
+}
+#input   {
+    background: none;
+}
+#contact-submit-btn {
+     font-size: 14px; 
+}
+
+#contact-us-section {
+   width: 100vw;
+}
+#contact-us-heading {
+    font-size: 30px;
+}
+#contact-us-paragraph   {
+    font-family: Roboto;
+    font-size: 14px;
+     line-height: 26px; 
+     text-align: center;
+}
+#contact-us-btn {
+ 
+    font-size: 14px;
+    
+     padding: 5px 10px;
+}
+
+#footer-section {
+    background: #121318;
+}
+#footer-paragraph   {
+   
+    font-size: 14px; 
+}
+
+
+}

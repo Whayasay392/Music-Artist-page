@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Artist page</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <link href='https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700,800|Roboto:300,400,500,600,700,800' rel='stylesheet'>
+</head>
+<body  class="container-fluid">
+    <!-- Overall container -->
+    <section id="overall-section">
+        <nav class="navbar sticky-top navbar-dark navbar-expand-lg row py-4 " id="nav-section">
+               <img class="img-fluid  ml-5" src="images/Group 86.png" alt="logo" id="large-logo">
+               <img class="img-fluid  ml-2" src="images/Group 87.png" alt="small" id="small-logo">
+            
+            <!-- <img class="ml-sm-1 ml-md-5 mr-0" src="images/brand.png" alt="logo">
+            <h6 id="logo-name" class="text-white ml-sm-1 ml-md-3">Antonio <br> Emerald</h6> -->
+               
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" id="nav-icon">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+             <!--Nav collapse section-->
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto mr-2">
+                  <li class="nav-item active">
+                    <a class="nav-link text-white mr-5" href="#">Home <span class="sr-only">(current)</span></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-white mr-5" href="#">About</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-white mr-5" href="#">Music</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-white mr-5" href="#">Photos</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-white" href="#">Blog</a>
+                  </li>
+                  
+                </ul>
+                <form class="form-inline my-2 my-lg-0 ml-4 mr-5">
+                  
+                  <button id="nav-btn">Buy Ticket</button>
+                </form>
+              </div>
+              
+        </nav>
+
+        <!-- Jumbotron Section -->
+        <section class="row py-3 align-items-center justify-content-center" id="jumbotron-section">
+        <div class="col-12 py-3">
+                <h2 id="jumbotron-heading" class="text-center text-white">ANTONIO EMERALD</h2>
+                <h4 id="jumbotron-paragraph" class="col-12 text-center text-white">We hold our notes longer, better, and higher. We put the mental <br> in instrumental and the cool in musicool.</h4>
+        </div>
+           
+        </section>
+
+        <!-- Biography Section -->
+        <section class="row" id="biography-section">
+            <div class="row col-12 pb-5 justify-content-around">
+                <div class="col-12 col-md-5 mt-3 py-3 ml-5">
+                    <img class="img-fluid ml-5 ml-md-auto col-8 col-md-12" src="images/Group 4.png" alt="">
+                    <!-- <img class="img-responsive ml-auto" id="bio-img-one" src="images/bio-img-1.svg" alt="rect">
+                    <img id="bio-img-two" src="images/bio-img-2.svg" alt="trium"> -->
+                </div>
+                <div class="col-12 col-md-5 py-4">
+                    <h4 id="bio-heading" class="text-white text-center my-5">Background</h4>
+                    <p class="col-12 text-white my-3" id="bio-paragraph">At only 30 years of age, DJ has already established    himself as the most successful american artist of the past two decades. <br>
+                        <br>
+                        Born on April 22, 1986, in El Centro, California, Rachel rose to stardom as part of a singing act with brother Ban Calen in the 2000s, hitting No. 1 with the single «Make Me Happy». Rachel had established a solo career of her own as well, having chart-toppers like «Gypsies, Tramps and Thieves», «Half-Breed» and «Dark Lady». Rachel also found more music success with rock-oriented tracks in the '15s and a global dance hit «Believe» and «My Dreams» in the late '16s. She released Closer to the Truth, her first studio album in 10 years, in 2016, which offered fans more dance hits.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Tour Section -->
+        <section class="row py-5" id="tour-section">
+            <div class="col-12">
+                <h3 id="tour-heading" class="text-white text-center my-4">TOUR DATES</h3>
+            </div>
+            
+            <div id="large-screen-tour" class="row col-12 justify-content-around my-3">
+                <!-- Tour image one -->
+                <div id="tour-img-one" class="col-10 col-md-3 align-items-end">
+                   <div id="tour-div-inside" class="col-12 py-3 mb-0">
+                    <h6 id="tour-inside-heading" class="text-white text-center">FOUND FESTIVAL 2019</h6>
+                    <p id="tour-inside-paragraph" class="text-white text-center">05 DEC 2019 BRAZIL</p>
+                   </div>
+                </div>
+
+                <!-- Tour image two -->
+                <div id="tour-img-two" class="col-12 col-md-3">
+                   
+                    <div  id="tour-div-inside" class="col-12 py-3 align-items-center justify-content-center" >
+                        <h6 class="text-white text-center" id="tour-inside-heading">FOUND FESTIVAL 2019</h6>
+                        <p class="text-white text-center" id="tour-inside-paragraph">05 DEC 2019 BRAZIL</p>
+                       </div>
+            </div>
+
+            <!-- Tour image three -->
+            <div id="tour-img-three" class="col-12 col-md-3">
+                    <div id="tour-div-inside" class="col-12 py-3 align-items-center justify-content-center">
+                        <h6 class="text-white text-center" id="tour-inside-heading">FOUND FESTIVAL 2019</h6>
+                        <p class="text-white text-center" id="tour-inside-paragraph">05 DEC 2019 BRAZIL</p>
+                       </div>
+                </div>
+            </div>
+
+
+            <!-- Small screen tour -->
+            <div id="small-screen-tour" class="container">
+                <div id="carouselExampleControls" class="carousel slide mx-auto " data-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active" id="carousel-items">
+                    <div id="smalltour-img-one" class="col-12 align-items-end">
+                        <img class="img-fluid" src="images/Rectangle (5).png" alt="">
+                        <div id="tour-div-inside" class="col-12 py-3 mb-0">
+                         <h6 id="tour-inside-heading" class="text-white text-center">FOUND FESTIVAL 2019</h6>
+                         <p id="tour-inside-paragraph" class="text-white text-center">05 DEC 2019 BRAZIL</p>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="carousel-item" id="carousel-items">
+                    <div id="smalltour-img-two" class="col-12">
+                        <img class="img-fluid" src="images/Rectangle (3).svg" alt="">
+                        <div  id="tour-div-inside" class="col-12 py-3 align-items-center justify-content-center" >
+                            <h6 class="text-white text-center" id="tour-inside-heading">FOUND FESTIVAL 2019</h6>
+                            <p class="text-white text-center" id="tour-inside-paragraph">05 DEC 2019 BRAZIL</p>
+                           </div>
+                </div>
+                  </div>
+                  <div class="carousel-item" id="carousel-items">
+                    <div id="smalltour-img-three" class="col-12">
+                        <img class="img-fluid" src="images/Rectangle (6).png" alt="">
+                        <div id="tour-div-inside" class="col-12 py-3 align-items-center justify-content-center">
+                            <h6 class="text-white text-center" id="tour-inside-heading">FOUND FESTIVAL 2019</h6>
+                            <p class="text-white text-center" id="tour-inside-paragraph">05 DEC 2019 BRAZIL</p>
+                           </div>
+                    </div>
+                  </div>
+                </div>
+    
+                <a href="#carouselExampleControls" role="button"data-slide="prev" class="carousel-control-prev" style="color: #3FD3DD;">
+                  <span class="carousel-control-prev-icon"></span>
+                </a>
+                <a href="#carouselExampleControls" role="button" data-slide="next" class="carousel-control-next" style="color: #3FD3DD;">
+                  <span class="carousel-control-next-icon"></span>
+                </a>
+              </div><br>
+            </div>
+            
+        </section>
+
+        <!-- Video Section -->
+        <section class="row" id="video-section">
+            <div class="my-auto mx-auto col-6">
+            <img class="img-fluid d-block px-5 py-5 mx-auto" src="images/Group 48.png" alt="">
+            <p id="video-paragraph" class="text-center text-white">Antonio Emerald - Live Concert Atlanta 2020</p>
+            </div>
+            
+        </section>
+
+        <!-- Album Section -->
+        <section id="album-section" class="row py-2 py-md-5">
+            <div class="col-12">
+                <h3 id="album-heading" class="text-white text-center my-4">LATEST ALBUM</h3>
+                <div class="row col-12 justify-content-around" >
+                    <div class="col-12 col-md-5">
+                        <div class="col-12 mt-3 py-3 ml-1 ml-md-5">
+                            <img class="img-responsive col-12" src="images/Group 49.png" alt="">
+                        </div>
+                        <br>
+                        <p id="album-paragraph" class="text-white mt-3 mb-1" >TOMORROW NEVER DIES</p>
+                        <br>
+                        <p id="album-paragraph-two" class="text-white mb-3">Released: 13/09/2019 <br>
+                            Label: I am the Best, RED <br>
+                            Format: Digital download <br>
+                            Certifications: RIAA: Gold</p>
+                            <div class="row col-12 justify-content-around mb-2 mb-md-4 ml-auto ml-md-1">
+                                <div id="album-social-div"  class="col-2">
+                                    <img class="img-responsive col-12" src="images/Vector (17).png" alt="">
+                                </div>
+                                <div id="album-social-div"  class="col-2">
+                                    <img class="col-12 img-responsive" src="images/Playstore.png" alt="">
+                                </div>
+                                <div id="album-social-div"  class="col-2">
+                                    <img class="col-12 img-responsive" src="images/Vector (19).png" alt="">
+                                </div>
+                                <div id="album-social-div"  class="col-2">
+                                <img class="col-12 img-responsive" src="images/Vector (18).png" alt="">
+                                </div>
+                                <div id="album-social-div"  class="col-2">
+                                    <img class="col-12 img-responsive" src="images/Vector (16).png" alt="" style="position: absolute; bottom: 30%;">
+                                </div>
+                                
+                            </div>
+                    </div>
+                    <div class="col-12 col-md-5 mt-3">
+                        <img class="img-fluid ml-3 ml-md-1" style="height: 100%;" src="images/Group 23.svg" alt="">
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact-section" class="row justify-content-end">
+            <div class="col-12 col-md-6 my-5 justify-content-end" >
+                <h5 id="contact-heading" class="text-white text-center my-4">CONTACT FOR BOOKING</h5>
+                <p id="contact-paragraph" class="text-white text-center my-2">For booking and press inquiries please contact my manager by filling the form or calling the number: 1-888-652-2588</p>
+                <div class="row col-12 ml-1 ml-md-0">
+                    <form class="form-group  mx-auto justify-content-center"  action="">
+                        <div class="row justify-content-around">
+                            <input id="input" class="form-control col-10 col-md-5 my-3" type="text" placeholder="Name" >
+                            <input id="input" class="form-control col-10 col-md-5 my-3" type="email" placeholder="Email" >
+                        </div>
+                       
+                        <textarea style="background: none;" id="input" class="w-100 form-control mt-3 mb-0" name="" id="" cols="30" rows="5" placeholder="Message"></textarea><br>
+                        <div class="row col-12 ml-3 justify-content-end" >
+                            <button id="contact-submit-btn" class="text-white py-1 px-3 col-6" id="send">SUBMIT NOW</button>
+                        </div>
+                        
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact us Section -->
+        <section id="contact-us-section" class="row py-5 justify-content-around">
+            <div class="col-12 col-md-3">
+                <h3 id="contact-us-heading" class="text-white text-center">Contact Me</h3>
+                <p id="contact-us-paragraph" class="text-white">140 Horizon Circle, New York, California <br>
+                    1-888-652-2588 <br>
+                    Antonioemerald@music.com <br>
+                    https://www.Antonioemr.com
+                </p>
+            </div>
+            <div class="col-12 col-md-3">
+                <h3 class="text-white text-center" id="contact-us-heading">Newsletter</h3>
+                <p class="text-white" id="contact-us-paragraph">Subscribe to our mailing list to receive new updates and special offers.
+                </p>
+            </div>
+            <div class=" col-12 col-md-5" >
+                <form class="row col-12 input-group mx-auto w-100 justify-content-center" action="">
+                         <input id="input" class="form-control" type="text" placeholder="Your Email"><br>
+                   <div class="input-group-append">
+                    <button id="contact-us-btn" class="text-white px-4" id="send">Subscribe</button>
+                   </div>
+                </form>
+            </div>
+        </section>
+
+        <!-- Footer Section -->
+        <footer id="footer-section" class="row align-items-center py-5">
+            
+            <p id="footer-paragraph" class="text-white text-center mt-auto mx-auto col-12">Copyright 2017. All Rights Reserved.</p>
+            <div class="row col-10 col-md-4 mx-auto justify-content-center">
+                <!-- <img class="img-fluid col-3 mx-auto" src="images/fb.png" alt="">
+                <img class="img-fluid col-3 mx-auto" src="images/insta.png" alt="">
+                <img class="img-fluid col-3 mx-auto" src="images/twitter.png" alt=""> -->
+
+
+
+
+                <img class="img-fluid col-5 mx-auto" src="images/Group 69.png" alt="">
+            </div>
+        </footer>
+    </section>
+    
+</body>
+</html>
