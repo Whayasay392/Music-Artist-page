@@ -16,7 +16,7 @@ html {
 a  {
     font-family: Roboto;
     font-size: 20px;
-    font-weight: 500;
+    font-weight: 400;
 }
 /* h2  {
     font-size: 4rem;
@@ -34,8 +34,9 @@ a  {
       padding: 12px 18px;
        color: white;
     box-shadow: none; 
-    border: 1px solid #3FD3DD; 
-    font-weight: 700;
+    border: 1px solid #3FD3DD;
+    border-radius: 5px; 
+    font-weight: 500;
 }
 #jumbotron-section  {
     background-image: url('images/Rectangle (7).png');  
@@ -75,16 +76,18 @@ a  {
 }
 #bio-paragraph  {
     font-family: Roboto;
-    font-size: 30px;
+    font-size: 20px;
     line-height: 42px;
 }
 
 #tour-section   {
     background: #191B27;
+    width: 100vw;
 }
 #tour-heading   {
     font-family: Montserrat;
-    font-weight: 700;
+    font-weight: 600;
+    font-size: 40px;
 }
 #small-screen-tour  {
     display: none;
@@ -101,12 +104,12 @@ a  {
 }
 #tour-inside-heading    {
     font-family: Montserrat;
-    font-size: 30px; 
+    font-size: 25px; 
     font-weight: 600;
 }
 #tour-inside-paragraph  {
     font-family: Roboto;
-    font-size: 20px; 
+    font-size: 18px; 
     font-weight: 600;
 }
 
@@ -135,25 +138,26 @@ a  {
 #album-section  {
     background-image: url('images/Rectangle (8).png'); 
     background-position: center; background-repeat: no-repeat; background-size: cover;
+    width: 100vw;
 }
 #album-heading  {
     font-family: Montserrat;
-    font-size: 48px;
+    font-size: 40px;
      font-weight: 600;
 }
 #album-paragraph    {
     font-family: Roboto;
-    font-size: 30px; 
+    font-size: 25px; 
     font-weight: 600;
 }
 #album-paragraph-two    {
     font-family: Roboto;
     line-height: 35px; 
-    font-size: 25px;
+    font-size: 20px;
 }
 #album-social-div   {
     border: 1px solid white;
-     padding: 2px;
+     padding: 2px 4px;
 }
 
 #contact-section    {
@@ -165,13 +169,13 @@ a  {
 }
 #contact-heading    {
     font-family: Montserrat;
-    font-size: 48px; 
+    font-size: 40px; 
     font-weight: 600;
 }
 #contact-paragraph  {
     font-family: Roboto;
-    font-size: 20px; 
-    font-weight: 500;
+    font-size: 18px; 
+    font-weight: 400;
 }
 #input   {
     background: none;
@@ -188,10 +192,12 @@ a  {
 
 #contact-us-section {
     background: #191B27;
+    width: 100vw;
 }
 #contact-us-heading {
     font-family: Montserrat;
     font-size: 36px;
+    text-align: left;
 }
 #contact-us-paragraph   {
     font-family: Roboto;
@@ -211,11 +217,12 @@ a  {
 
 #footer-section {
     background: #121318;
+    width: 100vw;
 }
 #footer-paragraph   {
     font-family: Roboto;
-    font-size: 25px; 
-    font-weight: 500;
+    font-size: 20px; 
+    font-weight: 400;
 }
 
 
@@ -223,9 +230,15 @@ a  {
 
 /* Media Queries  */
 
+/* Mobile Phones */
 @media screen and (max-width: 760px)  {
     #nav-section    {
         width: 100vw;
+    }
+    a  {
+    
+        font-size: 14px;
+        
     }
     #small-logo {
         display: block;
@@ -242,14 +255,9 @@ a  {
        
     }
     #nav-btn    {
-        font-family: Roboto;
-        background: #3FD3DD;
-         font-size: 20px;
-          padding: 12px 18px;
-           color: white;
-        box-shadow: none; 
-        border: 1px solid #3FD3DD; 
-        font-weight: 700;
+         font-size: 14px;
+          padding: 8px 14px;
+          
     }
     
 #jumbotron-section  {
@@ -307,9 +315,44 @@ a  {
     display: contents;
     height: 35rem;
 }
+#tour-heading   {
+    font-size: 30px;
+}
+#tour-div-inside    {
+    width: 56%; 
+    position: absolute;
+     bottom: 0;
+      left: 20%;
+}
+#tour-inside-heading    {
+    font-family: Montserrat;
+    font-size: 17px; 
+   
+}
+#tour-inside-paragraph  {
+    font-family: Roboto;
+    font-size: 10px; 
+   
+}
+#smallscreen-tour-img   {
+    height: auto;
+     width: 60%;
+      margin: 0 auto;
+      margin-left: 18%;
+}
+/* .carousel-control-next-icon:after   {
+    content: '>';
+    font-size: 50px;
+    color: #3FD3DD;
+}
+.carousel-control-prev-icon:after   {
+    content: '<';
+    font-size: 50px;
+    color: #3FD3DD;
+} */
 
 #video-paragraph    {
-    font-size: 24px;
+    font-size: 18px;
 }
 #video-section  {
     width: 100vw;
@@ -318,7 +361,7 @@ a  {
     
 }
 #album-heading  {
-    font-size: 35px;
+    font-size: 30px;
 }
 #album-paragraph    {
     font-size: 20px; 
@@ -342,6 +385,7 @@ a  {
 }
 #contact-paragraph  {
     font-size: 15px; 
+    
 }
 #input   {
     background: none;
@@ -355,9 +399,9 @@ a  {
 }
 #contact-us-heading {
     font-size: 30px;
+    text-align: center;
 }
 #contact-us-paragraph   {
-    font-family: Roboto;
     font-size: 14px;
      line-height: 26px; 
      text-align: center;
@@ -377,5 +421,14 @@ a  {
     font-size: 14px; 
 }
 
+}
 
+
+/* Tablets & Ipads */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+    #contact-submit-btn {
+       
+         font-size: 17px; 
+        
+    }
 }
