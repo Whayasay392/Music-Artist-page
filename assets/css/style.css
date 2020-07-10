@@ -13,15 +13,15 @@ html {
 #small-logo {
     display: none;
 }
-a  {
+#nav-menus  {
     font-family: Roboto;
     font-size: 20px;
     font-weight: 400;
 }
-/* h2  {
-    font-size: 4rem;
-} */
-
+#nav-menus:hover    {
+    background: #3FD3DD;
+    border-radius: 5px;
+}
 #logo-name  {
     font-family: Montserrat;
     font-size: 20px; 
@@ -31,7 +31,7 @@ a  {
     font-family: Roboto;
     background: #3FD3DD;
      font-size: 20px;
-      padding: 12px 18px;
+      padding: 12px 30px;
        color: white;
     box-shadow: none; 
     border: 1px solid #3FD3DD;
@@ -39,10 +39,10 @@ a  {
     font-weight: 500;
 }
 #jumbotron-section  {
-    background-image: url('../images/Rectangle (7).png');  
+    background-image: url('../images/jumbo-img.png');  
     background-repeat: no-repeat;
     background-size: cover; background-position: center;
-     height: 45rem;
+     height: 53rem;
      width: 100vw;
 }
 #jumbotron-heading  {
@@ -57,6 +57,7 @@ a  {
 #biography-section  {
     background-image: url('../images/Rectangle.png'); 
     background-position: center; background-repeat: no-repeat; background-size: cover;
+   
     width: 100vw;
 }
 #bio-img-one    {
@@ -190,6 +191,7 @@ a  {
      box-shadow: none;
      border: 1px solid #3FD3DD;
      font-family: Roboto;
+    
 }
 
 #contact-us-section {
@@ -226,6 +228,9 @@ a  {
     font-size: 20px; 
     font-weight: 400;
 }
+#smallscreen-footer-icons   {
+    display: none;
+}
 
 
 
@@ -247,7 +252,7 @@ a  {
     #nav-section    {
         width: 100vw;
     }
-    a  {
+    #nav-menus  {
     
         font-size: 14px;
         
@@ -292,6 +297,7 @@ a  {
 #biography-section  {
     background-image: url('../images/Rectangle.png'); 
     background-position: center; background-repeat: no-repeat; background-size: cover;
+
     width: 100vw;
 }
 #bio-img-one    {
@@ -435,6 +441,12 @@ a  {
    
     font-size: 14px; 
 }
+#smallscreen-footer-icons   {
+    display:contents;
+}
+/* #largescreen-footer-icons   {
+    display: none;
+} */
 
 }
 

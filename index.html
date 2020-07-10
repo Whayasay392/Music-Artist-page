@@ -28,19 +28,19 @@
               <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ml-auto mr-2">
                   <li class="nav-item active">
-                    <a class="nav-link text-white mr-3 mr-xl-5" href="#">Home <span class="sr-only">(current)</span></a>
+                    <a class="nav-link text-white ml-1 ml-md-0 mr-3 mr-xl-5" id="nav-menus" href="#jumbotron-section">Home <span class="sr-only">(current)</span></a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link text-white mr-3 mr-xl-5" href="#">About</a>
+                    <a class="nav-link text-white ml-1 ml-md-0 mr-3 mr-xl-5" id="nav-menus" href="#biography-section">About</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link text-white mr-3 mr-xl-5" href="#">Music</a>
+                    <a class="nav-link text-white ml-1 ml-md-0 mr-3 mr-xl-5" id="nav-menus" href="#album-section">Music</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link text-white mr-3 mr-xl-5" href="#">Photos</a>
+                    <a class="nav-link text-white ml-1 ml-md-0 mr-3 mr-xl-5" id="nav-menus" href="#tour-section">Photos</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link text-white" href="#">Blog</a>
+                    <a class="nav-link text-white ml-1 ml-md-0" id="nav-menus" href="#">Blog</a>
                   </li>
                   
                 </ul>
@@ -63,9 +63,9 @@
 
         <!-- Biography Section -->
         <section class="row" id="biography-section">
-            <div class="row col-12 pb-5 justify-content-around">
+            <div class="row col-12 pb-5 mt-1 mt-md-5 justify-content-around">
                 <div class="col-12 col-md-5 mt-3 py-3 ml-5">
-                    <img class="img-fluid ml-5 ml-md-auto col-8 col-md-10" src="assets/images/Group 4.png" alt="">
+                    <img class="img-fluid ml-5 ml-md-auto col-8 col-md-10 mt-0 mt-md-3" src="assets/images/Group 4.png" alt="">
                     <!-- <img class="img-responsive ml-auto" id="bio-img-one" src="assets/images/bio-img-1.svg" alt="rect">
                     <img id="bio-img-two" src="assets/images/bio-img-2.svg" alt="trium"> -->
                 </div>
@@ -156,6 +156,7 @@
             
         </section>
 
+
         <!-- Video Section -->
         <section class="row" id="video-section">
             <div class="my-auto mx-auto col-10" >
@@ -171,7 +172,7 @@
                 <h3 id="album-heading" class="text-white text-center my-4">LATEST ALBUM</h3>
                 <div class="row col-12 justify-content-around" >
                     <div class="col-12 col-md-5" >
-                        <div class="col-12 mt-3 py-3 ml-1 ml-md-0">
+                        <div class="col-12 col-md-9 mt-3 py-3 ml-1 ml-md-0">
                             <img class="img-responsive col-12" src="assets/images/Group 49.png" alt="">
                         </div>
                         <br>
@@ -200,7 +201,7 @@
                                 
                             </div>
                     </div>
-                    <div class="col-12 col-md-5 mt-3">
+                    <div class="col-12 col-md-5 mt-3 mt-md-0" >
                         <img class="img-responsive ml-3 ml-md-1" style="height: 100%; width: 100%;" src="assets/images/Group 23.svg" alt="">
                     </div>
                 </div>
@@ -210,8 +211,8 @@
 
         <!-- Contact Section -->
         <section id="contact-section" class="row justify-content-end">
-            <div class="col-12 col-md-5 my-5 " >
-                <h5 id="contact-heading" class="text-white text-center my-4">CONTACT FOR BOOKING</h5>
+            <div class="col-12 col-md-5 my-5 mr-0 mr-md-5" >
+                <h5 id="contact-heading" class="text-white text-center my-5">CONTACT FOR BOOKING</h5>
                 <p id="contact-paragraph" class="text-white text-center my-2">For booking and press inquiries please contact my manager by filling the form or calling the number: 1-888-652-2588</p>
                 <div class="row col-12 ml-1 ml-md-0">
                     <form class="col-12 form-group  mx-auto justify-content-around"  action="">
@@ -221,8 +222,8 @@
                         </div>
                        
                         <textarea style="background: none;" id="input" class="w-100 form-control mt-3 mb-0" name="" id="" cols="30" rows="5" placeholder="Message"></textarea><br>
-                        <div class="row col-12 ml-3 justify-content-end" >
-                            <button id="contact-submit-btn" class="text-white py-1 px-3 col-6" id="send">SUBMIT NOW</button>
+                        <div class="row col-12 ml-3 justify-content-end">
+                            <button id="contact-submit-btn" class="text-white py-1 px-3 col-6 col-md-4" id="send">SUBMIT NOW</button>
                         </div>
                         
                     </form>
@@ -232,7 +233,7 @@
 
         <!-- Contact us Section -->
         <section id="contact-us-section" class="row py-5 justify-content-around">
-            <div class="col-12 col-md-3">
+            <div class="col-12 col-md-2">
                 <h3 id="contact-us-heading" class="text-white">Contact Me</h3>
                 <p id="contact-us-paragraph" class="text-white">140 Horizon Circle, New York, California <br>
                     1-888-652-2588 <br>
@@ -240,7 +241,7 @@
                     https://www.Antonioemr.com
                 </p>
             </div>
-            <div class="col-12 col-md-3">
+            <div class="col-12 col-md-2">
                 <h3 class="text-white" id="contact-us-heading">Newsletter</h3>
                 <p class="text-white" id="contact-us-paragraph">Subscribe to our mailing list to receive new updates and special offers.
                 </p>
@@ -259,28 +260,39 @@
         <footer id="footer-section" class="row align-items-center py-5">
             
             <p id="footer-paragraph" class="text-white text-center mt-auto mx-auto col-12">Copyright 2017. All Rights Reserved.</p>
-            <div class="row col-12  col-md-4 col-xl-3 mx-auto justify-content-center">
-                <div class="col-xs-4 col-3 col-md-3">
-                    <img id="" class="img-fluid col-12 mx-2 mr-0" src="assets/images/fb.png" alt="">
-                </div>
-                <div class="col-xs-4 col-3 col-md-3">
-                    <img class="img-fluid col-12 mx-auto" src="assets/images/insta.png" alt="">
-                </div>
-                <div class="col-xs-4 col-3 col-md-3">
-                    <img class="img-fluid col-12 mx-auto" src="assets/images/twitter.png" alt="">
-                </div>
-                
-                <!-- <img id="" class="img-fluid col-3 col-md-3 mx-2 mr-0" src="assets/images/fb.png" alt="">
-                <img class="img-fluid col-3 col-md-3 mx-auto" src="assets/images/insta.png" alt="">
-                <img class="img-fluid col-3 col-md-3 mx-auto" src="assets/images/twitter.png" alt=""> -->
 
+            <!-- Large screen footer icons -->
+            <div class="row col-12  col-md-4 col-xl-3 mx-auto justify-content-center" id="largescreen-footer-icons">
+                <div class="col-xs-4 col-3 col-md-3">
+                    <img id="" class="img-fluid  mx-2 mr-0" src="assets/images/fb.png" alt="">
+                </div>
+                <div class="col-xs-4 col-3 col-md-3">
+                    <img class="img-fluid" src="assets/images/insta.png" alt="">
+                </div>
+                <div class="col-xs-4 col-3 col-md-3">
+                    <img class="img-fluid" src="assets/images/twitter.png" alt="">
+                </div>
+            </div>
+               
+                <!-- Small Sreen Footer icons 
+                <div class="row col-12  col-md-4 col-xl-3  mx-auto justify-content-center" id="smallscreen-footer-icons" style="border: 1px solid white;">
+                    <div class="col-xs-4 col-3 col-md-3">
+                        <img id="" class="img-fluid col-12 mx-2 mr-0" src="assets/images/fb.png" alt="">
+                    </div>
+                    <div class="col-xs-4 col-3 col-md-3">
+                        <img class="img-fluid col-12 mx-auto" src="assets/images/insta.png" alt="">
+                    </div>
+                    <div class="col-xs-4 col-3 col-md-3">
+                        <img class="img-fluid col-12 mx-auto" src="assets/images/twitter.png" alt="">
+                    </div> -->
+                
                 <!-- <div class="row col-6">
                 
                 </div> -->
 
 
                 <!-- <img class="img-fluid col-4 col-md-5 mx-auto" src="assets/images/Group 69.png" alt=""> -->
-            </div>
+            <!-- </div> -->
         </footer>
     </section>
     
