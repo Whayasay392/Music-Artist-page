@@ -78,6 +78,7 @@ a  {
     font-family: Roboto;
     font-size: 20px;
     line-height: 42px;
+    text-align: left;
 }
 
 #tour-section   {
@@ -156,8 +157,9 @@ a  {
     font-size: 20px;
 }
 #album-social-div   {
-    border: 1px solid white;
-     padding: 2px 4px;
+    border: 1px solid #7E7E7E;
+    border-radius: 5px;
+     padding: 2px 1px;
 }
 
 #contact-section    {
@@ -231,6 +233,16 @@ a  {
 /* Media Queries  */
 
 /* Mobile Phones */
+
+@media only screen and (device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2)  {
+    #contact-us-btn {
+ 
+        font-size: 10px;
+         padding: 5px 8px;
+    }
+}
+
+
 @media screen and (max-width: 760px)  {
     #nav-section    {
         width: 100vw;
@@ -305,6 +317,7 @@ a  {
     font-family: Roboto;
     font-size: 16px;
     line-height: 42px;
+    text-align: center;
 }
 
 #large-screen-tour  {
@@ -373,8 +386,10 @@ a  {
     text-align: center;
 }
 #album-social-div   {
-    border: 1px solid white;
-     padding: 1px;
+
+     padding: 0;
+     padding-bottom: 1px;
+    
 }
 #contact-section    {
     height: 40rem;
@@ -391,7 +406,7 @@ a  {
     background: none;
 }
 #contact-submit-btn {
-     font-size: 14px; 
+     font-size: 12px; 
 }
 
 #contact-us-section {
