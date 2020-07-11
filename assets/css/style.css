@@ -182,7 +182,9 @@ html {
 }
 #input   {
     background: none;
+    color: white;
 }
+
 #contact-submit-btn {
     background: #3FD3DD;
      border-radius: 5px; 
